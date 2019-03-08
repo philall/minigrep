@@ -1,0 +1,6 @@
+We can send a request to register a new user with the above UUID in the url. 
+Our server can take that id and find the Invitation object in the database 
+and then compare the expiry date with current time. If all of 
+these conditions are true we would let the user register, otherwise send an 
+error response back. For now we will return the Invitation Object to the client as a 
+workaround. Email support will get implemented next in Part 3.
