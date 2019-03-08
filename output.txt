@@ -1,1 +1,0 @@
-and then compare the expiry date with current time. If all of 
